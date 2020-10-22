@@ -9,6 +9,8 @@ class GitGerrit < Formula
 
   bottle :unneeded
 
+  depends_on "python@3.9"
+
   def install
     prefix.install "bin"
     bash_completion.install "completion/git-gerrit-completion.bash"
