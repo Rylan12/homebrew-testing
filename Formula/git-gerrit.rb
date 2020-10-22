@@ -4,7 +4,7 @@ class GitGerrit < Formula
   url "https://github.com/fbzhong/git-gerrit/archive/v0.3.0.tar.gz"
   sha256 "433185315db3367fef82a7332c335c1c5e0b05dabf8d4fbeff9ecf6cc7e422eb"
   # Changing the license for testing purposes
-  license "BSD-2-Clause"
+  license "BSD-3-Clause"
   head "https://github.com/fbzhong/git-gerrit.git"
 
   bottle :unneeded
