@@ -12,7 +12,7 @@ jobs:
         uses: Rylan12/actions/cancel-previous-runs@master
         if: always()
       - name: Label pull request
-        uses: Rylan12/actions/label-pull-requests@master
+        uses: Rylan12/actions/label-pull-requests@fix-autolabel
         if: always()
         with:
           def: |
