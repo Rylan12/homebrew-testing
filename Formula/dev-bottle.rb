@@ -5,10 +5,10 @@ class DevBottle < Formula
   sha256 "7b17656cbbd76700d313a1c36824a197dfb776cadcbf3a748da5ee3d0791b92d"
 
   bottle do
-    root_url "https://github.com/Rylan12/homebrew-development/releases/download/dev-bottle-0.7"
+    root_url "https://github.com/Rylan12/homebrew-testing/releases/download/dev-bottle-0.7"
     cellar :any_skip_relocation
-    sha256 "335745fc4b34927db2ee03432a107647194f3086473f7c394485183171217e01" => :catalina
-    sha256 "8a4d25005211e8e0da93a05917f2f7f7f731e33aa2ae0889e13cf9b30771f8df" => :x86_64_linux
+    sha256 "cc7726e2b310671b79472f77c4456056cc8f2b75da5a1aa09f388cb69f4d617c" => :catalina
+    sha256 "e0374c3ab27d517655831195da93caa61bde3a146d9e91335111fbfc73accbc5" => :x86_64_linux
   end
 
   conflicts_with "aescrypt", because: "both install `aescrypt` and `aesget` binaries"
