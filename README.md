@@ -1,6 +1,6 @@
 # Rylan12 Testing
 
-Tap for testing [Homebrew](https://github.com/Homebrew/brew) development and actions
+Tap for testing [Homebrew](https://github.com/Homebrew/brew) development and actions.
 
 ## How do I install these formulae?
 `brew install rylan12/testing/<formula>`
