@@ -6,8 +6,6 @@ class DevBottleUnneeded < Formula
   license "BSD-3-Clause"
   head "https://github.com/fbzhong/git-gerrit.git"
 
-  bottle :unneeded
-
   depends_on "python@3.9"
 
   conflicts_with "git-gerrit", because: "both install `gerrit` and `git-gerrit` binaries"
